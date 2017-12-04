@@ -17,8 +17,9 @@ public class MainWindow {
         System.out.println(emptyLabel.getText());
 //3. Create components and put them in the frame.
 //...create emptyLabel...
+        JTextField numberEnter = new JTextField("Login", 20);
         frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
-
+        frame.add(numberEnter);
 //4. Size the frame.
         frame.pack();
 
